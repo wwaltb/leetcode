@@ -1,0 +1,13 @@
+-std=gnu11
+-O2
+-fsanitize=address
+-Wall
+-Wextra
+-Wshadow
+-Wconversion
+-Wno-sign-conversion
+-Werror
+-I/usr/include
+-I/usr/local/include
+-I./include
+-DLSP
